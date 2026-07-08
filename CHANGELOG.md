@@ -21,5 +21,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Persistent storage with database
 - Charts and reports
 - API integration for exchange rates
-- User interface
 - User authentication
+- Graphical interface
