@@ -3,7 +3,7 @@ FinTrack is a simple console-based personal finance tracking system, developed a
 
 ## License
 
-This project is licensed under the MIT License – see the [LICENSE](License) file for details.
+This project is licensed under the MIT License, see the [LICENSE](License) file for details.
 
 ## Changelog
 
