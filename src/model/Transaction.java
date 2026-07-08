@@ -7,13 +7,13 @@ import FinTrack.utils.Formatter;
 public class Transaction {
     private String desc;
     private double amount;
-    private boolean isRevenue;
+    private boolean isIncome;
     private LocalDate date;
 
-    public Transaction(String desc, double value, boolean isRevenue, LocalDate date) {
+    public Transaction(String desc, double value, boolean isIncome, LocalDate date) {
         this.desc = desc;
         this.amount = value;
-        this.isRevenue = isRevenue;
+        this.isIncome = isIncome;
         this.date = date;
     }
 
@@ -33,12 +33,12 @@ public class Transaction {
         this.amount = value;
     }
 
-    public boolean getIsRevenue() {
-        return isRevenue;
+    public boolean getIsIncome() {
+        return isIncome;
     }
 
-    public void setIsRevenue(boolean isRevenue) {
-        this.isRevenue = isRevenue;
+    public void setIsIncome(boolean isIncome) {
+        this.isIncome = isIncome;
     }
 
     public LocalDate getDate() {
@@ -47,7 +47,7 @@ public class Transaction {
 
     @Override
     public String toString() {
-        return  "isRevenue: " + isRevenue +
+        return  "isIncome: " + isIncome +
                 "\nDescription: " + desc +
                 "\nValue: " + Formatter.formatCurrency(amount) +
                 "\nDate: " + date;   
