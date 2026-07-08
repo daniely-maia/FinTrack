@@ -43,13 +43,13 @@ public class Main {
                     }
                     scanner.nextLine();
     
-                    System.out.println("\nisRevenue: ");
-                    boolean isRevenue = scanner.nextBoolean();
+                    System.out.println("\nisIncome: ");
+                    boolean isIncome = scanner.nextBoolean();
                     scanner.nextLine();
     
                     LocalDate date = LocalDate.now();
 
-                    Transaction transaction = new Transaction(desc, amount, isRevenue, date);
+                    Transaction transaction = new Transaction(desc, amount, isIncome, date);
 
                     finTracker.addTransaction(transaction);
     
