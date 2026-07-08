@@ -29,7 +29,7 @@
 - **Persistent Storage** – Save transactions to a database (PostgreSQL)
 - **Charts and Reports** – Visualize spending patterns
 - **API Integration** – Fetch exchange rates automatically
-- **User Authentication** - Multi-user support
+- **User Authentication** – Multi-user support
 - **Graphical Interface**
 
 ## 🛠️ Technologies Used
