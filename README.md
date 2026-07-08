@@ -14,7 +14,6 @@
       - FinTracker.java           # Core business logic
     - utils/
       - Formatter.java            # Currency formatting
-  - .gitignore
   - CHANGELOG.md
   - LICENSE
   - README.md
