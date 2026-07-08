@@ -5,8 +5,8 @@ import java.time.LocalDate;
 public class MonthlyTransaction extends Transaction {
     private int month;
 
-    public MonthlyTransaction(String desc, double amount, boolean isRevenue, LocalDate date, int month) {
-        super(desc, amount, isRevenue, date);
+    public MonthlyTransaction(String desc, double amount, boolean isIncome, LocalDate date, int month) {
+        super(desc, amount, isIncome, date);
         this.month = month;
     }
 
