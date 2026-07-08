@@ -4,8 +4,8 @@ import java.text.NumberFormat;
 import java.util.Locale;
 
 public class Formatter {
-    public static String formatCurrency(double value) {
+    public static String formatCurrency(double amount) {
         NumberFormat format = NumberFormat.getCurrencyInstance(Locale.of("en", "US"));
-        return format.format(value);
+        return format.format(amount);
     }
 }
